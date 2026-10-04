@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@theme{
+--color-forest:#183B2A;--color-deep:#10291E;--color-ink:#1D2B23;--color-cream:#F6F2E7;--color-ivory:#FCFAF4;--color-beige:#ECE5D5;--color-gold:#B18A45;--color-lgold:#D4B46A;
+--font-serif:'Cormorant Garamond',Georgia,serif;--font-sans:'Manrope',system-ui,sans-serif}
+html{scroll-behavior:smooth}
+body{@apply bg-ivory text-ink font-sans antialiased overflow-x-hidden}
+h1,h2,h3,h4{font-family:var(--font-serif)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
