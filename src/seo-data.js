@@ -47,7 +47,7 @@ const org = {
   name: 'Excelia Origins Private Limited',
   alternateName: BRAND,
   url: SITE + '/',
-  logo: SITE + '/images/excelia-logo.jpg',
+  logo: SITE + '/images/e1.png',
   image: OG_IMAGE,
   description: 'Premium cashews sourced from Odisha, India, for retail and bulk buyers.',
   email: 'hello@exceliaorigins.com',
