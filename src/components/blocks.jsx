@@ -212,8 +212,10 @@ export const DataTable = ({ head, rows }) => (
 /* ---------- FAQ accordion ---------- */
 export const Faq = ({ items }) => {
   const [open, setOpen] = useState(0);
+  const ld = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: items.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) };
   return (
     <div className="mx-auto max-w-3xl divide-y divide-beige rounded-xl bg-cream px-6 shadow-[0_2px_16px_rgba(70,55,20,0.07)]">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       {items.map(([q, a], i) => (
         <div key={q}>
           <button

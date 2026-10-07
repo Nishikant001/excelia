@@ -51,6 +51,7 @@ function Hero() {
         <img
           src="/images/cashews-bowl-hero.webp"
           alt="Premium cashews in a wooden bowl"
+          width="1600" height="1067" fetchpriority="high" decoding="async"
           className="h-full w-full object-cover object-[50%_58%]"
         />
       </div>
@@ -128,6 +129,7 @@ function Hero() {
         <img
           src="/images/cashews-bowl-hero.webp"
           alt="Premium cashews in a wooden bowl"
+          width="1600" height="1067" decoding="async"
           className="h-full w-full object-cover"
         />
         <p className="absolute right-5 top-6 -rotate-6 font-serif text-xl italic leading-tight text-white drop-shadow-[0_2px_5px_rgba(0,0,0,0.4)]">
